@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;800&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+}
+.home {
+  color: red;
+}
+header {
+  background: #fff;
+  padding: 50px 240px;
+  padding-left: 15px;
+  padding-right: 150px;
+}
+
+.label {
+  border: 1000px;
+}
+.btn-primary {
+  /* border: 20px solid rebeccapurple; */
+  /* border-radius: 38px; */
+  background-color: orangered;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  /* padding: 16px 16px 34px 67px; */
+}
+
+/* header section */
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: rebeccapurple;
+  /* padding-right: 500px; */
+  /* margin-top: 100px; */
+  /* gap: 100px;
+  margin-right: 100%; */
+}
+.alpha {
+  margin-right: 50px;
+  padding-right: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+nav li a {
+  text-decoration: none;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  color: blueviolet;
+}
+.banner-title {
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  font-size: 64px;
+  font-weight: 800;
+  padding-bottom: 20px;
+  gap: 24px;
+}
+.banner-description {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+.our {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  padding-left: 15px;
+}
+.description {
+  padding-left: 10px;
+}
+.mountain {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.bottom-description {
+  padding-top: 20px;
+}
+.ice-mountain img {
+  /* height: 90%; */
+  /* margin-left: 65%;
+  margin-bottom: 40%;
+  padding-bottom: 50%; */
+  /* padding-bottom: 300px;
+  padding-left: 950px;
+  margin-bottom: 400px; */
+}
+.choose {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: normal;
+}
+.choose-description {
+  color: rgba(19, 19, 24, 0.7);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.maldives-positon {
+  padding-left: 105px;
+}
+.maldives {
+  text-align: center;
+}
+.container {
+  /* display: flex; */
+  /* width: 300px; */
+}
+/* .row > div{
+  display: flex;
+} */
+.row img {
+  height: 100%;
+  width: 100%;
+}
+.row {
+  height: 400px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+  padding-left: 150px;
+}
+.row-1 {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
+.row-1 img{
+  height: 100%;
+  width: 100%;
+}
+.bangladesh{
+  width: 480px;
+}
+.why{
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 800;
+
+}
+.description-1{
+  color:  rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 26px;
+}
