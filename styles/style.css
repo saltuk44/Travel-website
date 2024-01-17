@@ -14,8 +14,17 @@ header {
   padding-right: 150px;
 }
 
-.label {
-  border: 1000px;
+.nav-container {
+  display: flex;
+}
+.travel {
+  /* position: absolute; */
+  top: 50%;
+  /* bottom: 50%; */
+  font-size: 100px;
+}
+.nav-container img {
+  margin-right: 100px;
 }
 .btn-primary {
   /* border: 20px solid rebeccapurple; */
@@ -37,10 +46,6 @@ header {
   /* margin-top: 100px; */
   /* gap: 100px;
   margin-right: 100%; */
-}
-.alpha {
-  margin-right: 50px;
-  padding-right: 100px;
 }
 
 nav {
@@ -66,6 +71,10 @@ nav li a {
   text-align: center;
   color: blueviolet;
 }
+/* .banner img{
+  justify-content: center;
+  padding: auto;
+} */
 .banner-title {
   position: absolute;
   top: 15%;
@@ -78,13 +87,16 @@ nav li a {
 .banner-description {
   position: absolute;
   top: 30%;
-  left: 30%;
+  left: 35%;
 }
 .our {
   color: #131318;
   font-size: 40px;
   font-weight: 800;
   padding-left: 15px;
+}
+.go {
+  text-align: center;
 }
 .description {
   padding-left: 10px;
@@ -149,25 +161,96 @@ nav li a {
   display: flex;
   justify-content: center;
   gap: 10px;
-  
 }
-.row-1 img{
+.row-1 img {
   height: 100%;
   width: 100%;
 }
-.bangladesh{
+.bangladesh {
   width: 480px;
 }
-.why{
+.why {
   text-align: center;
   font-size: 2.8rem;
   font-weight: 800;
-
 }
-.description-1{
-  color:  rgba(19, 19, 24, 0.70);
+.description-1 {
+  color: rgba(19, 19, 24, 0.7);
   text-align: center;
-  font-size: 16px;
+  /* font-size: 16px; */
   font-weight: 400px;
   line-height: 26px;
+}
+.fact-card {
+  display: grid;
+  grid-template-columns: 50px 50px;
+  grid-template-rows: 50px 50px;
+  /* border-radius: 16px; */
+  display: flex;
+}
+
+.fact-card .card {
+  /* border-radius: 16px; */
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  /* justify-content: space-around; */
+}
+/* .card img {
+  display: flex;
+} */
+.fact-card img {
+  width: 50px;
+}
+/* /* .Newsletter{
+  border: 2px solid red;
+  width: 40%;
+  /* padding-left: 35%px; */
+/* margin-left: 10%; */
+.div-1{
+  border: 2px solid red;
+  border-radius: 50%;
+}
+.mountain-1 {
+  
+  /* padding: 50%; */
+  /* justify-content: center;
+  margin-left: 40px; */
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px; */
+  justify-content: right;
+  display: flex;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+/* .div-1{
+  height: 20%;
+  
+} */
+.foot {
+  /* width: 100%;
+  margin-left: 200px;
+  height: 100%; */
+  /* flex-shrink: 0; */
+  background-color: rgba(19, 19, 24, 0.05);
+  /* padding-left: 500px; */
+  .footer {
+    text-align: center;
+    padding: 100px;
+  }
+}
+.foot-description {
+  justify-content: center;
+  text-align: center;
+}
+.last-text {
+  padding-top: 75px;
+}
+.line {
+  margin-top: 45px;
+  height: 1px;
+  background: rgba(19, 19, 24, 0.1);
+}
+.fix-color {
+  color: #ff5400;
 }
