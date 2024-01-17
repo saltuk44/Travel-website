@@ -140,7 +140,9 @@ nav li a {
   text-align: center;
 }
 .container {
-  /* display: flex; */
+  display: flex;
+  padding-left: 300px;
+  gap:20px
   /* width: 300px; */
 }
 /* .row > div{
@@ -186,13 +188,17 @@ nav li a {
   grid-template-columns: 50px 50px;
   grid-template-rows: 50px 50px;
   /* border-radius: 16px; */
+  gap: 24px;
   display: flex;
 }
 
 .fact-card .card {
   /* border-radius: 16px; */
-  border: 1px solid rgba(251, 181, 99, 0.2);
+  gap: 5px;
+  border: 2px solid rgba(251, 181, 99, 0.2);
+  border-radius: 10px;
   background: rgba(251, 181, 99, 0.05);
+  padding-left: 100px;
   /* justify-content: space-around; */
 }
 /* .card img {
@@ -201,17 +207,49 @@ nav li a {
 .fact-card img {
   width: 50px;
 }
+.card {
+  padding-left: 10%;
+  /* padding: auto; */
+  padding-right: 10%;
+  gap: 5px;
+} 
+ .card-title-1{
+  border-radius: 66px;
+  /* padding-left: 400px;
+  padding-right: 400px; */
+  justify-content: center;
+  text-align: center;
+  
+ }
+ 
+.card-1 {
+  
+  width: 573px;
+  height: 284px;
+  border: 2px solid gold;
+  padding-left: 450px;
+  padding-right: 450px;
+  justify-content: center;
+  text-align: center;
+  
+  /* position: absolute; */
+  
+  
+  /* width: 400px;
+  height: 200px; */
+  border-radius: px;
+}
+
 /* /* .Newsletter{
   border: 2px solid red;
   width: 40%;
   /* padding-left: 35%px; */
 /* margin-left: 10%; */
-.div-1{
+.div-1 {
   border: 2px solid red;
-  border-radius: 50%;
+  /* border-radius: 50%; */
 }
 .mountain-1 {
-  
   /* padding: 50%; */
   /* justify-content: center;
   margin-left: 40px; */
@@ -254,3 +292,37 @@ nav li a {
 .fix-color {
   color: #ff5400;
 }
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 600px) {
+  /* h3{
+    font-size: 36px;
+    line-height: 50px;
+  } */
+  header {
+    padding: 20px;
+    }
+    nav,
+    .des,
+    .row
+    .row-1{
+      flex-direction: column;
+    }
+    .row img{
+      width: 100%;
+      margin-left: 0;
+    }
+  /* .nav-container
+  
+    /* {
+      flex-direction: column;
+
+  }
+  .banner-img img{
+    width: 100%;
+    margin-left: 0;
+  } */ 
+}
+
+
